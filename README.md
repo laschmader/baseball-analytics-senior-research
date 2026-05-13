@@ -1,4 +1,4 @@
 # baseball-analytics-senior-research
 
 
-The goal of this Senior Research project was to attempt to infer the effect the Automatic Ball and Strike System (ABS) would have on MLB batters, in terms of strikeout and walk rate, number of balls and strikes seen throughout a season, whiff rate, and number of pitches seen in a season. To do this, I collected a 
+The goal of this Senior Research project was to attempt to infer the effect the Automatic Ball and Strike System (ABS) would have on MLB batters, in terms of strikeout and walk rate, number of balls and strikes seen throughout a season, whiff rate, and number of pitches seen in a season. To do this, I collected data from FanGraphs that included 2,068 (1,135) distinct player-season observations from players who recorded at least 200 plate appearances in Triple-A over the years 2019 to 2025. Knowing the ABS system was not implemented until 2022 in Triple-A, I was able to filter the dataset into two groups, before and during ABS. Using t-tests and Fixed Effects Regression (OLS and Poisson), I was able to compare the mean value for each group for each statistic described above. I found that 
